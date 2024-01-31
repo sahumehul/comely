@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+}
+
+.left,.right{
+  background-color: black;
+  width: 30%;
+  height: 100vh;
+}
+
+.middle {
+  background-image: url('background.png');
+  z-index: -1;
+ width: 70%;
+ height: 100vh;
+}
+
+.circle7f2b69{
+  position: absolute;
+  top: -107px;
+  left: 302px;
+  z-index: -1;
+  box-shadow: inset 2px 2px 71px 34px rgba(89,0,144,255);
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    background-color:#863360;
+    color: aliceblue;
+    font-size: medium;
+}
+
+.circleblue{
+  height: 160px;
+  width: 160px;
+  border-radius: 100%;
+  position: absolute;
+  top: 10%;
+  left: 45%;
+  box-shadow: inset 2px 2px 71px 34px rgba(90,50,178,255);
+}
+
+.innerblue{
+  height: 80px;
+  width: 80px;
+  z-index: 1;
+  border-radius: 100%;
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  border-color:2px solid black;
+  box-shadow: inset 2px 2px 71px 34px rgba(90,50,178,255);
+}
+
+.circle{
+  position: absolute;
+      right:15%;
+      top: -18%;
+      background-color: transparent;
+      border: 3px solid rgba(152,81,198,255);
+      border-radius: 100%;
+}
+
+h2{
+  font-family: 'Josefin Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.discord{
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  align-items: center;
+  color: #f9feff;
+  font-size: 32px;
+letter-spacing: 5px;
+height: 120px;
+width: 500px;
+box-shadow: inset 2px 2px 71px 34px rgba(196,123,30,255);
+}
+
+.title{
+  position: absolute;
+  top: 13%;
+  left: 13%;
+}
+.discordlogo{
+  mix-blend-mode:multiply;
+  position: absolute;
+  width: 180px;
+  height: 22vh;
+  top: 65%;
+  left: 54%;
+}
+
+.discordcouple{
+  mix-blend-mode: multiply;
+  position: relative;
+  z-index: 1;
+  height: 60vh;
+  width: 65%;
+  top: 40%;
+  left: 20%;
+}
+
+.icons{
+  display: flex;
+  row-gap: 50px;
+}
+
+.discordicon img,.insta img,.twitter img{
+  background-color: #f9feff;
+  width: 30px;
+  height: 20px;
+  background-color: #f9feff;
+  mix-blend-mode: lighten;
+  position: relative;
+  top: 900%;
+}
+
+
+
+
+
